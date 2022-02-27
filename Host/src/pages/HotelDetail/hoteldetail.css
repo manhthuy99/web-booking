@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:ital@1&display=swap');
+.HotelDetail {
+    width: 100%;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 30px;
+}
+.HotelDetail .title{
+    line-height: 1;
+    border-bottom: 1px solid rgba(3,18,26,1.00);
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.HotelDetail .rate {
+    display: flex;
+}
+.HotelDetail .title .rate p {
+    background-color: rgba(0,124,232,1.00);
+    border-radius: 10px;
+    padding: 8px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.HotelDetail .title .rate .ant-rate {
+    font-size: 18px;
+    margin-left: 10px;
+}
+.HotelDetail .title .address {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(104,113,118,1.00);
+}
+.HotelDetail  .rate-count {
+    margin-top: 20px;
+}
+.HotelDetail .rate-count  p{
+    color: rgba(1,148,243,1.00);
+    font-size: 20px;
+}
+.HotelDetail .price {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+}
+.HotelDetail .price h1{
+    color: rgb(255, 94, 31);
+    font-size: 24px;
+}
+.HotelDetail .price .btn {
+    background-color: rgb(255, 94, 31);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    width: 250px;
+    outline: none;
+    border-radius: 10px;
+    height: 40px;
+}

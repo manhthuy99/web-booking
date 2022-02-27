@@ -1,0 +1,26 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.container .slide{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+.container .slide img {
+    width: 100%;
+    height: 350px;
+}
+.container .SearchBox {
+    width: 100%;
+    height: 300px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: rgba(247,249,250,1.00);
+    z-index: 2;
+    position: absolute;
+    top: 250px;
+}

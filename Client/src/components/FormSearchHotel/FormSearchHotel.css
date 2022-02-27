@@ -1,0 +1,63 @@
+
+.form-search-hotel {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.search-city {
+    display: flex;
+    width: 80%;
+    background-color: #fff;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(205,208,209,1.00);
+}
+.search-city .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border: none;
+}
+.search-city .ant-form-item {
+    width: 100%;
+    padding-top: 20px;
+    height: 45px;
+}
+.search-city .ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+    font-size: 20px;
+    color: #666;
+}
+.search-city .ant-select-selection-item {
+    font-size: 19px;
+}
+.form-bottom {
+    display: flex;
+    width: 80%;
+    margin-top: 20px;
+}
+.form-bottom .form-date {
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid rgba(205,208,209,1.00);
+    background-color: #fff;
+    padding: 0 10px;
+    margin-right: 10px;
+    color: #666;
+}
+.form-bottom .form-date .ant-picker-range {
+    width: 100%;
+    border: none;
+    height: 30px;
+}
+.form-bottom .form-date .ant-form-item {
+    margin-bottom: 16px;
+}
+.form-bottom .form-date .ant-form-item-control-input-content{
+    padding-top: 20px;
+
+}
+.form-bottom .form-date .ant-picker-input > input {
+    font-size: 20px;
+    color: #666;
+}
